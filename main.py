@@ -381,7 +381,7 @@ if selected == "Contact":
     }
 
     col1, col2= st.columns(2)
-    col1.image(Image.open("D:/photoshop/passport.jpg"), width=450)
+    col1,show )
     with col2:
         st.markdown("# :blue[Singapore Resale Flat Prices Prediction]")
         st.markdown('<div style="height: 50px;"></div>', unsafe_allow_html=True)
